@@ -20,7 +20,7 @@
 > Video 5:
 * How to submit HW via github
 
-xact Timetable:
+Exact Timetable:
 | Day   | Sunday | Monday | Tuesday     | Wednesday                            | Thursday      | Friday | Saturday      |
 |:----- | ------ |:------ | ----------- |:------------------------------------ |:------------- | ------ |:------------- |
 | Date  | 4/10   | 5/10   | 6/10        | 7/10                                 | 8/10          | 9/10   | 10/10         |
@@ -39,6 +39,12 @@ xact Timetable:
 | Event |        | Q&A Section       |             | Deadline for Advanced Homework 0                                     |               |        |               |
 | Time  |        | 20:00 - 21:00        |             | 12:00                                     |               |        |               |
 
+## Zoom link for the Q&A section
+https://hkust.zoom.us/j/92700044099?pwd=SlJ4MnMyTDRFbHNZMWJNQjZ2NW9BZz09
+
+Meeting ID: 927 0004 4099
+
+Passcode: 480171
 
 
 ## Contact
