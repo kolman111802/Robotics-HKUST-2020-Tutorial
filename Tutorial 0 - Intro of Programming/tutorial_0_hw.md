@@ -1,5 +1,7 @@
 
-> If you feel that the homework is too hard, do the [in-class execrise](https://hackmd.io/xwpeswfZTp6_oDtg8KrhFQ) first.
+> If you feel that the homework is too hard, do the [in-class exercise](https://hackmd.io/xwpeswfZTp6_oDtg8KrhFQ) first.
+> 
+> Also, feel free to dicuss with any mentors or me if you encounter any difficulties.
 
 **Submission deadline**: 14/10 12:00
 
