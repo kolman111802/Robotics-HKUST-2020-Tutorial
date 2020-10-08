@@ -48,7 +48,7 @@ Meeting ID: 927 0004 4099
 Passcode: 480171
 
 
-## Contact
+## Contact+852 6343 8772 
 
 
 | Tutorial Section | Name     | Email                      | Phone Number   |
@@ -57,6 +57,6 @@ Passcode: 480171
 |         | Law      | klloaj@connect.ust.hk      | +852 6605 1573 |
 |         | Danny    | kkdlau@connect.ust.hk      | +852 6144 9755 |
 | 2       | Anshuman | amedhi@connect.ust.hk      | +852 6892 5193 |
-|         | Nicholas | nchristanto@connect.ust.hk | +852 6343 8772 |
+|         | Nicholas | nchristanto@connect.ust.hk | +852 5990 1789 |
 | 3       | Aaron    | aswang@connect.ust.hk      | +852 6573 2345 |
-|         | Tommy    | pltangab@connect.ust.hk    | +852 5990 1789 |
+|         | Tommy    | pltangab@connect.ust.hk    | +852 6343 8772 |
