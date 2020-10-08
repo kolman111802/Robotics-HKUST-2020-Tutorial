@@ -32,7 +32,7 @@ uint64_t factorial(uint32_t f) {
 int main() {
     // You can modify main function for testing purpose
     for (int i = 0; i < 15; i++) {
-        printf("%d! = %d\n", i, factorial(i));
+        printf("%d! = %lu\n", i, factorial(i));
     }
     return 0;
 }
