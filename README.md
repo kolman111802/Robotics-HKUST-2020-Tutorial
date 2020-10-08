@@ -19,6 +19,7 @@
 * Functions
 > Video 5:
 * How to submit HW via github
+* Link to HW repo: https://github.com/HKUST-Robotics-Team/SoftwareTutorialHW2020
 
 Exact Timetable:
 | Day   | Sunday | Monday | Tuesday     | Wednesday                            | Thursday      | Friday | Saturday      |
