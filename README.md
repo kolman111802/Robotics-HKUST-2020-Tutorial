@@ -48,7 +48,7 @@ Meeting ID: 927 0004 4099
 Passcode: 480171
 
 
-## Contact+852 6343 8772 
+## Contact
 
 
 | Tutorial Section | Name     | Email                      | Phone Number   |
