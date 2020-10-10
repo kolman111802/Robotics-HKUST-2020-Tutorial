@@ -2,6 +2,9 @@
 
 ## **Tutorials**
 **Tutorial 0 - Basics of C:**
+
+Note: [Hackmd](https://hackmd.io/@DannyLau1205/Sy4vX-oSw), [Github](https://github.com/HKUST-Robotics-Team/Robotics-HKUST-2020-Tutorial/blob/main/Tutorial%200%20-%20Intro%20of%20Programming/note.md)
+(Both are the same but hackmd supports better formatting)
 > Video 1:
 * Hello World
 * I/O
