@@ -25,7 +25,7 @@ Exact Timetable:
 | Day   | Sunday | Monday | Tuesday     | Wednesday                            | Thursday      | Friday | Saturday      |
 |:----- | ------ |:------ | ----------- |:------------------------------------ |:------------- | ------ |:------------- |
 | Date  | 4/10   | 5/10   | 6/10        | 7/10                                 | 8/10          | 9/10   | 10/10         |
-| Event |        |        |             | Release of Tutorial 0 and Homework 0 | Q&A Section   |        | Q&A Section   |
+| Event |        |        |Deadline HW0 11.59PM             | Release of Tutorial 0 and Homework 0 | Q&A Section   |        | Q&A Section   |
 | Time  |        |        |             | 12:00                                | 20:00 - 21:00 |        | 11:00 - 12:00 |
 | Date  | 11/10  | 12/10  | 13/10       | 14/10                                | 15/10         | 16/10  | 17/10         |
 | Event |        |Q&A Section        |  |Release of Tutorial 1 and Homework 1                                      | Q&A Section   |        | Q&A Section   |
