@@ -24,6 +24,21 @@ Note: [Hackmd](https://hackmd.io/@DannyLau1205/Sy4vX-oSw), [Github](https://gith
 * How to submit HW via github
 * Link to HW repo: https://github.com/HKUST-Robotics-Team/SoftwareTutorialHW2020
 
+**Tutorial 1 - Advanced C:**
+> Video 1:
+* Pointers
+> Video 2:
+* Enumeration
+> Video 3:
+* Struct
+> Video 4:
+* Union
+> Video 5:
+* Typedef
+> Video 6:
+* Preprocessors
+* Other Keywords (e.g. static extern inline volatile)
+
 Exact Timetable:
 | Day   | Sunday | Monday | Tuesday     | Wednesday                            | Thursday      | Friday | Saturday      |
 |:----- | ------ |:------ | ----------- |:------------------------------------ |:------------- | ------ |:------------- |
