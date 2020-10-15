@@ -1,5 +1,5 @@
 #define DATE_INPUT 'D'
-#define IMPORT_FROM_FILE 'F'
+#define IMPORT_FROM_FILE 'I'
 #define SELECT_SAVED_DATA 'S'
 #define END_PROGRAM 'E'
 
