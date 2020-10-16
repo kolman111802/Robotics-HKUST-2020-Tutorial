@@ -33,7 +33,7 @@ typedef struct {
     int month;
     int year;
     DAYS day;
-    char name_of_holiday[30];
+    char name_of_holiday[50];
 } day_info;
 
 void opening(){
