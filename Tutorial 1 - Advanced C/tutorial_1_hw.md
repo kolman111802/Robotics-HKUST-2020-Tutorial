@@ -192,7 +192,7 @@ It is a holiday! :)
 
 ## FAQ
 **Q:** What can I modify?
-**A:**  In `i_give_you.h`, you can modify the structs in the i_give_yo    u.h but not the `#define` and the functions (i.e. `opening()` and `choice_menu()`). 
+**A:**  In `i_give_you.h`, you can modify all the stuff in the `i_give_you.h` but not the `#define` and the functions (i.e. `opening()` and `choice_menu()`). 
 In `main.c`, you can modify all except for the `main()` and the `#include`. This means that you cannot include additional libraries other than the ones we included for you.
      
  **Q:** What files do we have to submit exactly?
