@@ -25,6 +25,8 @@ As a bonus task, you may export these dates into a .txt file and import them for
     * 'E' for ending the program immediately
 * Validate the input before moving forward to other tasks
     * Use the following `#define` for validating
+    * Output the dedicated output message `invalid_input_msg()` in `i_give_you.h` and let the user inputs the date again if it is not a valid input
+
 
 ```C
 #define DATE_INPUT 'D'
@@ -65,7 +67,6 @@ typedef struct {
     char name_of_holiday[30];
 } day_info;
 ```
-* Check if the input is valid, output the dedicated output message `invalid_input_msg()` in `i_give_you.h` and let the user inputs the date again
 
 ## Task 2: Show the information ( 35 marks )
 * Find the day of the inputted date that you acquired from task 1
