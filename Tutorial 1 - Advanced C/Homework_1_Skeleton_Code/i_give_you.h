@@ -1,5 +1,5 @@
 #define DATE_INPUT 'D'
-#define IMPORT_FROM_FILE 'F'
+#define IMPORT_FROM_FILE 'I'
 #define SELECT_SAVED_DATA 'S'
 #define END_PROGRAM 'E'
 
@@ -33,7 +33,7 @@ typedef struct {
     int month;
     int year;
     DAYS day;
-    char name_of_special_day[30];
+    char name_of_holiday[30];
 } day_info;
 
 void opening(){
@@ -49,4 +49,9 @@ void choice_menu(){
   printf("I: Import From File \n");
   printf("S: Select Saved Data \n");
   printf("E: END_PROGRAM \n");
+}
+
+void invalid_input_msg(){
+  printf("Invalid input!\n");
+  printf("Please input your choice again: \n");
 }
