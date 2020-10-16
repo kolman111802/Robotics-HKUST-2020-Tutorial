@@ -33,6 +33,7 @@ As a bonus task, your program may also export these dates into a .txt file and i
 
 ## Task 1: Separating the Input ( 10 marks )
 * Read input in the format DD/MM/YYYY (e.g. 30/04/2019).
+* The inputted date will be after 01/01/1800.
 * Check if the input is valid, use the provided `invalid_input_msg()` function to inform the user of the invalid input and let the user input a date again.
 * Separate the input into date, month, and year.
     * You should use the provided `MONTHS` enum to enumerate months:
@@ -69,7 +70,7 @@ As a bonus task, your program may also export these dates into a .txt file and i
 ## Task 2: Determine Whether the Day is Special ( 35 marks )
 * Find the day of the inputted date that you acquired from task 1.
 * Leap years should be considered.
-* It is given that 01/01/0001 is a Saturday.
+* It is given that 01/01/1800 is a Wednesday.
 * You should use the provided `DAYS` enum to enumerate days:
 
 	```c
@@ -104,8 +105,8 @@ As a bonus task, your program may also export these dates into a .txt file and i
 * Sample I/O:
 
 	```
-	Please input a date (DD/MM/YYYY): 03/01/0001
-	Day: Monday
+	Please input a date (DD/MM/YYYY): 17/10/2020
+	Day: Saturday
 	Name of holiday: Not a holiday
 	```
 	
@@ -141,12 +142,8 @@ As a bonus task, your program may also export these dates into a .txt file and i
 	```C
 	Here is the list of saved data:
 	1. 30/01/2020
-	2. 18/10/2001
-	3. 05/08/1043
-	4. 11/05/0009
-	5. 25/12/1753
-	6. 01/01/0002
-	7. 17/03/0593
+	2. 06/06/2004
+	3. 01/01/1933
 	```
 * The user should choose one of the saved data by entering a number and the program should print out the corresponding item.
     * Sample I/O:
@@ -164,23 +161,23 @@ As a bonus task, your program may also export these dates into a .txt file and i
 
 	```c
 	Please select the saved data from the list:
-	4
-	Date: 11
-	Month: May
-	Year: 0009
-	Day: Saturday
-	Name of holiday: National Technology Day
+	2
+	Date: 06
+	Month: June
+	Year: 2004
+	Day: Sunday
+	Name of holiday: D-Day, Sunday
 	It is a holiday! :)
 	```
 	
 	```c
 	Please select the saved data from the list:
-	6
+	3
 	Date: 01
 	Month: January
-	Year: 0002
-	Day: Sunday
-	Name of holiday: First Day of January, Sunday
+	Year: 1931
+	Day: Thursday
+	Name of holiday: First day of January
 	It is a holiday! :)
 	```
 * After printing the saved data, the program goes back to the menu state.
@@ -193,7 +190,7 @@ As a bonus task, your program may also export these dates into a .txt file and i
 
 ## FAQ
 **Q:** What can I modify?  
-**A:**  In `i_give_you.h`, you can modify everything except the `#define`s and the functions (i.e. `opening()` and `choice_menu()`). 
+**A:**  In `i_give_you.h`, you can add anything but you are not allowed to remove anything . 
 In `main.c`, you can modify everything except for the `main()` function and the `#include` headers. This means that you cannot include additional libraries other than the ones already included.
 
 ## Homework Submission
