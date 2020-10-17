@@ -35,6 +35,7 @@ As a bonus task, your program may also export these dates into a .txt file and i
 * Read input in the format DD/MM/YYYY (e.g. 30/04/2019).
 * The inputted date will be after 01/01/1800.
 * Check if the input is valid, use the provided `invalid_input_msg()` function to inform the user of the invalid input and let the user input a date again.
+* Invalid input here means out of bound month and date.
 * Separate the input into date, month, and year.
     * You should use the provided `MONTHS` enum to enumerate months:
     
