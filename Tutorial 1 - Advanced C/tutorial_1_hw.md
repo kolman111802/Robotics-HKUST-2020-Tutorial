@@ -35,7 +35,7 @@ As a bonus task, your program may also export these dates into a .txt file and i
 * Read input in the format DD/MM/YYYY (e.g. 30/04/2019).
 * The inputted date will be after 01/01/1800.
 * Check if the input is valid, use the provided `invalid_input_msg()` function to inform the user of the invalid input and let the user input a date again.
-* Invalid input here means out of bound month and date.
+	* Invalid input here means out-of-bound month or date.
 * Separate the input into date, month, and year.
     * You should use the provided `MONTHS` enum to enumerate months:
     
@@ -64,7 +64,7 @@ As a bonus task, your program may also export these dates into a .txt file and i
 	    int month;
 	    int year;
 	    DAYS day;
-	    char name_of_holiday[30];
+	    char name_of_holiday[50];
 	} day_info;
 	```
 
@@ -88,20 +88,19 @@ As a bonus task, your program may also export these dates into a .txt file and i
 
 * Find whether the day is a holiday according to the table below. (Assume that each holiday happens on the same date annually.) 
 
-
-| Date         | Holiday                       |
-|:------------ |:----------------------------- |
-| 01/01        | First Day of January          |
-| 29/01        | Birthday of the Great Tim Woo |
-| 10/03        | Mario Day                     |
-| 31/03        | World Backup Day              |
-| 10/04        | Whatever Day                  |
-| 13/04        | Easter                        |
-| 11/05        | National Technology Day       |
-| 06/06        | D-Day                         |
-| 25/12        | Christmas                     |
-| 26/12        | Boxing Day                    |
-| Every Sunday | Sunday                        |
+	| Date         | Holiday                       |
+	|:------------ |:----------------------------- |
+	| 01/01        | First Day of January          |
+	| 29/01        | Birthday of the Great Tim Woo |
+	| 10/03        | Mario Day                     |
+	| 31/03        | World Backup Day              |
+	| 10/04        | Whatever Day                  |
+	| 13/04        | Easter                        |
+	| 11/05        | National Technology Day       |
+	| 06/06        | D-Day                         |
+	| 25/12        | Christmas                     |
+	| 26/12        | Boxing Day                    |
+	| Every Sunday | Sunday                        |
 
 * Sample I/O:
 
@@ -113,12 +112,12 @@ As a bonus task, your program may also export these dates into a .txt file and i
 	
 	```
 	Please input a date (DD/MM/YYYY): 26/12/1994
-	Day: Saturday
+	Day: Monday
 	Name of holiday: Boxing Day
 	```
 	
 	```
-	Please input a date (DD/MM/YYYY): 31/03/2009
+	Please input a date (DD/MM/YYYY): 31/03/2013
 	Day: Sunday
 	Name of holiday: World Backup Day, Sunday
 	```
@@ -127,9 +126,8 @@ As a bonus task, your program may also export these dates into a .txt file and i
 * You may verify your output with [timeanddate.com's weekday calculator](https://www.timeanddate.com/date/weekday.html).
 
 ## Task 3: Save the Day and Name of Holiday ( 5 marks )
- * Save the above information into a global array of  30 `day_info`s for future usage.
- * Set the array size of saved `day_info` to 30
- * If the date is not a holiday, then save `"Not a holiday"` into `name_of_holiday[30]`.
+ * Save the above information into a global `day_info` array of  size 30 for future usage.
+ * If the date is not a holiday, then save `"Not a holiday"` into `name_of_holiday`.
 
 ### Note
 * If you want to modify the struct, you are always welcome to do so.
