@@ -144,7 +144,7 @@ As a bonus task, your program may also export these dates into a .txt file and i
 	2. 06/06/2004
 	3. 01/01/1933
 	```
-* The user should choose one of the saved data by entering a number and the program should print out the corresponding item.
+* The user should choose one of the saved data by entering a number and the program should print out the corresponding item. (The user will always input a valid choice here, meaning if there are only 3 choices, the user will always choose from 1,2 or 3)
     * Sample I/O:
     
 	```c
